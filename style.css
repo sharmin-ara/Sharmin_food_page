@@ -33,14 +33,9 @@ body{
     text-align: center;
     border-radius: 40px;
     font-size: 20px;
+    text-decoration: none;
 }
-.link_button{
-    background-color: aqua; width: 100px ;    
-    text-align: center;
-    border-radius: 40px;
-    font-size: 20px;
-    
-}
+
 #image_container{    
         background: url(food_images/organic_food_middle_box.jpg) left top no-repeat, url(background_shapes/background6_banner_1a.jpg) left top repeat;
         padding: 15px;
