@@ -2,7 +2,10 @@ body{
     font-family: 'Pacifico', cursive;
 }
 .heading1{font-size: 50px;
-
+    
+}
+.centered-text{
+    text-align: center;
 }
 .top_section{
     display: flex;
@@ -30,11 +33,13 @@ body{
     font-size: 20px;
     
 }
-.image_container{
-    position: relative;
-    text-align: center;
-    margin: 40px 0px 30px 0px;
-    
+#image_container{    
+        background: url(food_images/organic_food_middle_box.jpg) left top no-repeat, url(background_shapes/background6_banner_1a.jpg) left top repeat;
+        padding: 15px;
+        background-size: contain;
+        /* background-size: 50px, 130px, auto;*/
+    }
+
 }
 /* Centered text */
 .img-text{
