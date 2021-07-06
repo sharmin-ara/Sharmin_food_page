@@ -1,17 +1,19 @@
 body{
     font-family: 'Pacifico', cursive;
 }
-Font_description{
+.heading1{font-size: 50px;
 
 }
 .top_section{
     display: flex;
 }
 .column{
+    margin-top:  20px;
     float:left;
     width: 70%;
 }
 .column img{
+    margin: 20px 20px 20px;    
     float:right;
     width: 90%;
     height: 250px;
@@ -44,14 +46,14 @@ Font_description{
   }
   .img-text img{
     /*position: absolute;*/
-    top: 10px;
-    left: 0px;
+    top: 40%;
+    left: 10%;
     right:100px;
-
+ 
     /*transform: translate(-50%, -50%);*/
-    margin-left: 0px;
-    width: 200px;
-    height:inherit;
+    /*margin-left: 0px;*/
+    width: 100%;
+    height:auto;
   }
   .shadow-box{
       size: fit-content;
