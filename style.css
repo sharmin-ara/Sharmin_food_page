@@ -11,7 +11,7 @@ body{
     display: flex;
 }
 .column{
-    margin-top:  20px;
+    margin-top:  25px;
     float:left;
     width: 70%;
 }
@@ -25,6 +25,14 @@ body{
 
 .row{
     display:flex;
+}
+.link-button{
+    background-image: linear-gradient(aqua, cyan); 
+    text-decoration: none;
+    padding: 10px 40px; border-radius: 5px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 20px;
 }
 .link_button{
     background-color: aqua; width: 100px ;    
@@ -40,26 +48,6 @@ body{
         /* background-size: 50px, 130px, auto;*/
     }
 
-}
-/* Centered text */
-.img-text{
-    font-size: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .img-text img{
-    /*position: absolute;*/
-    top: 40%;
-    left: 10%;
-    right:100px;
- 
-    /*transform: translate(-50%, -50%);*/
-    /*margin-left: 0px;*/
-    width: 100%;
-    height:auto;
-  }
   .shadow-box{
       size: fit-content;
     box-shadow: 10px 10px 8px #888888; 
@@ -68,8 +56,6 @@ body{
     padding-left: 1%;
     border-radius: 10px;
     
-     /* background-image:url(background_shapes/background6_banner_1a_filtered.jpg) linear-gradient(10px);*/
-
   }
   #follower{
     box-shadow: 10px 10px 8px #888888; 
@@ -91,7 +77,7 @@ body{
     color: brown;
 }
 #tag-line{
-    font-size: 20px;
+    font-size: 22px;
 font-weight: bold;
 }
 
